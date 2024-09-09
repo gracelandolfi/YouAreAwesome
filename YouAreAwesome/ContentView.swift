@@ -31,13 +31,7 @@ struct ContentView: View {
                 .shadow(radius: 30)
                 .padding()
             
-            
-            
-            
-            
-            
-            
-            
+
             Spacer()
             
             
@@ -58,7 +52,7 @@ struct ContentView: View {
                 while imageNumber == lastImageNumber {
                     imageNumber = Int.random(in: 0...9)
                 }
-                imageName = "image \(imageNumber)"
+                imageName = "image\(imageNumber)"
                 lastImageNumber = imageNumber
                 
 //                messageString = messages[messageNumber]
@@ -67,8 +61,6 @@ struct ContentView: View {
 //                if messageNumber == messages.count {
 //                    messageNumber = 0
 //                }
-//                
-//                
 //                //      messageString = (messageString == message1 ? message2 : message1)
 //                
 //                //                imageName = (imageName == "image0" ? "image1" : "image0")
@@ -81,11 +73,7 @@ struct ContentView: View {
                 }
             }
             .buttonStyle(.borderedProminent)
-            
-            
-            //      .border(.purple, width: 5)
             .padding()
-            
         }
     }
 
